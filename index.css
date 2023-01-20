@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 nav{
-    display: none;
+    display: ;
     padding: 20px 50px;
     background-color: #000;
     position: sticky;
@@ -61,6 +61,12 @@ nav ul li a{
 }
 .output{
     overflow-y: scroll;
+}
+.output iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
 }
 .output,.editor{
     height: 100vh;
