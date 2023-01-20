@@ -62,7 +62,9 @@ nav h4 i{
     border: 1px solid #fff;
 }
 #output{
-    overflow-y: scroll;
+        overflow-y: scroll;
+        width: 100%;
+        border: none;
 }
 #output iframe{
     width: 100%;
@@ -86,8 +88,5 @@ nav h4 i{
     }
     #editor{
         height: 40vh;
-    }
-    #output{
-        width: 100%;
     }
   }
