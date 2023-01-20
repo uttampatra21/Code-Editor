@@ -1,6 +1,6 @@
 const main = document.querySelector('.main');
 main.innerHTML = `
-<div class="editor">
+<div id="editor">
 <div class="html">
     <i class="bi bi-filetype-html"></i>
     <div class="input">
